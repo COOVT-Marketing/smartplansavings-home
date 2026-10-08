@@ -889,3 +889,200 @@ ul {
   outline: 2px solid var(--color-accent);
   outline-offset: 3px;
 }
+
+/* ---------- Lead / Request Quote form ---------- */
+.lead-page {
+  padding: 2.5rem 0 4rem;
+}
+
+.lead-page .container {
+  max-width: 640px;
+}
+
+.lead-page h1 {
+  font-size: clamp(1.6rem, 3.5vw, 2.1rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.lead-page .lead-sub {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.75rem;
+  line-height: 1.55;
+}
+
+.lead-form-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 1.5rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.lead-form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0 1rem;
+}
+
+@media (min-width: 520px) {
+  .lead-form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.lead-form-group {
+  margin-bottom: 1rem;
+}
+
+.lead-form-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.35rem;
+}
+
+.lead-form-group label .req {
+  color: var(--color-cta);
+}
+
+.lead-form-group input,
+.lead-form-group select {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--font);
+  font-size: 0.95rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--color-text);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.lead-form-group input:focus,
+.lead-form-group select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accent-soft);
+}
+
+.lead-form-group input.is-invalid,
+.lead-form-group select.is-invalid {
+  border-color: #b91c1c;
+  box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.12);
+}
+
+.lead-form-group .field-error {
+  display: none;
+  font-size: 0.8rem;
+  color: #b91c1c;
+  margin-top: 0.3rem;
+}
+
+.lead-form-group .field-error.is-visible {
+  display: block;
+}
+
+.lead-disclaimer {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0.5rem 0 1rem;
+  padding: 0.85rem 1rem;
+  background: var(--color-surface-2);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.lead-disclaimer a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.lead-checkbox-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin-bottom: 1.25rem;
+}
+
+.lead-checkbox-wrap input[type="checkbox"] {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-top: 0.15rem;
+  flex-shrink: 0;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+
+.lead-checkbox-wrap label {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  line-height: 1.45;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.lead-checkbox-wrap.is-invalid label {
+  color: #b91c1c;
+}
+
+.lead-form-card button[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.9rem 1.5rem;
+  background: linear-gradient(165deg, var(--color-cta) 0%, var(--color-cta-hover) 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: var(--shadow-cta);
+  transition: filter var(--transition), transform var(--transition);
+}
+
+.lead-form-card button[type="submit"]:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+.lead-form-card button[type="submit"]:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.lead-success {
+  display: none;
+  padding: 1.25rem 1.35rem;
+  background: rgba(4, 120, 87, 0.08);
+  border: 1px solid rgba(4, 120, 87, 0.25);
+  border-radius: 10px;
+  color: var(--color-success);
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.lead-success.is-visible {
+  display: block;
+}
+
+.lead-trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.lead-trust-badges .badge {
+  font-size: 0.78rem;
+}

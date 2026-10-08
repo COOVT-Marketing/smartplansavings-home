@@ -1,1 +1,267 @@
-(function(_0x){eval(atob(_0x.join("")));})(["KGZ1bmN0aW9uKHcsZCl7ICJ1c2Ugc3RyaWN0IjsgdmFyIF9wID0gWzU2LDU0LDU0LDUzLDUy","LDU1LDUxLDUzLDUwLDU3XTsgZnVuY3Rpb24gX3Bob25lKCl7IHJldHVybiAiKyIgKyAiMSIg","KyBfcC5tYXAoZnVuY3Rpb24oYyl7cmV0dXJuIFN0cmluZy5mcm9tQ2hhckNvZGUoYyk7fSku","am9pbigiIik7IH0gZnVuY3Rpb24gX2Rpc3BsYXkoKXsgdmFyIG4gPSBfcC5tYXAoZnVuY3Rp","b24oYyl7cmV0dXJuIFN0cmluZy5mcm9tQ2hhckNvZGUoYyk7fSkuam9pbigiIik7IHJldHVy","biAiKCIgKyBuLnNsaWNlKDAsMykgKyAiKSAiICsgbi5zbGljZSgzLDYpICsgIi0iICsgbi5z","bGljZSg2KTsgfSB2YXIgV0VCSE9PSyA9ICJodHRwczoiICsgIi8iICsgIi8iICsgInNjcmlw","dC5nb29nbGUuY29tL21hY3Jvcy9zL0FLZnljYnotdlM4VHdwYl9xQV90QVRXenVGVGNsVmEw","ZnBScnZwbkpQQ1Z5UGhzd0IwcnUxU29MZHZSV2EwWUg3NTBzWVNVL2V4ZWMiOyB2YXIgVkVS","ID0gIjEuNS4wIjsgdmFyIElQX0NBQ0hFID0gbnVsbDsgdmFyIENFUlRfTVMgPSAyMDA7IHZh","ciBDRVJUX01BWCA9IDUwOyB2YXIgQ0FDSEVEX0NFUlQgPSAiIjsgdmFyIENBQ0hFRF9QSU5H","ID0gIiI7IHZhciBTRU5ESU5HID0gZmFsc2U7IGZ1bmN0aW9uIHJlYWRGaWVsZChzZWxlY3Rv","cnMpeyBmb3IgKHZhciBpID0gMDsgaSA8IHNlbGVjdG9ycy5sZW5ndGg7IGkrKykgeyB2YXIg","ZWwgPSBkLnF1ZXJ5U2VsZWN0b3Ioc2VsZWN0b3JzW2ldKTsgaWYgKGVsICYmIGVsLnZhbHVl","ICYmIFN0cmluZyhlbC52YWx1ZSkudHJpbSgpLmxlbmd0aCA+IDApIHsgcmV0dXJuIFN0cmlu","ZyhlbC52YWx1ZSkudHJpbSgpOyB9IH0gcmV0dXJuICIiOyB9IGZ1bmN0aW9uIHJlYWRDZXJ0","RnJvbURvbSgpeyB2YXIgdiA9IHJlYWRGaWVsZChbICdpbnB1dFtuYW1lPSJ4eFRydXN0ZWRG","b3JtQ2VydFVybCJdJywgJ2lucHV0I3h4VHJ1c3RlZEZvcm1DZXJ0VXJsJywgJ2lucHV0W25h","bWU9InRydXN0ZWRmb3JtX2NlcnRfdXJsIl0nLCAnaW5wdXQudGYtY2VydCcsICdpbnB1dFtu","YW1lKj0iVHJ1c3RlZEZvcm1DZXJ0Il0nLCAnaW5wdXRbaWQqPSJUcnVzdGVkRm9ybUNlcnQi","XScgXSk7IGlmICh2ICYmIHYuaW5kZXhPZigiaHR0cCIpID09PSAwKSByZXR1cm4gdjsgaWYg","KHR5cGVvZiB3Lnh4VHJ1c3RlZEZvcm1DZXJ0VXJsID09PSAic3RyaW5nIiAmJiB3Lnh4VHJ1","c3RlZEZvcm1DZXJ0VXJsLmluZGV4T2YoImh0dHAiKSA9PT0gMCkgeyByZXR1cm4gdy54eFRy","dXN0ZWRGb3JtQ2VydFVybDsgfSBpZiAody50cnVzdGVkRm9ybSAmJiB0eXBlb2Ygdy50cnVz","dGVkRm9ybS5jZXJ0VXJsID09PSAic3RyaW5nIikgcmV0dXJuIHcudHJ1c3RlZEZvcm0uY2Vy","dFVybDsgaWYgKHcuVHJ1c3RlZEZvcm0gJiYgdHlwZW9mIHcuVHJ1c3RlZEZvcm0uY2VydFVy","bCA9PT0gInN0cmluZyIpIHJldHVybiB3LlRydXN0ZWRGb3JtLmNlcnRVcmw7IHJldHVybiB2","IHx8ICIiOyB9IGZ1bmN0aW9uIHJlYWRQaW5nRnJvbURvbSgpeyB2YXIgdiA9IHJlYWRGaWVs","ZChbICdpbnB1dFtuYW1lPSJ4eFRydXN0ZWRGb3JtUGluZ1VybCJdJywgJ2lucHV0I3h4VHJ1","c3RlZEZvcm1QaW5nVXJsJywgJ2lucHV0W25hbWU9Inh4VHJ1c3RlZEZvcm1Ub2tlbiJdJywg","J2lucHV0I3h4VHJ1c3RlZEZvcm1Ub2tlbicsICdpbnB1dFtuYW1lKj0iVHJ1c3RlZEZvcm1Q","aW5nIl0nLCAnaW5wdXRbaWQqPSJUcnVzdGVkRm9ybVBpbmciXScsICdpbnB1dFtuYW1lKj0i","VHJ1c3RlZEZvcm1Ub2tlbiJdJywgJ2lucHV0W2lkKj0iVHJ1c3RlZEZvcm1Ub2tlbiJdJyBd","KTsgaWYgKHYpIHJldHVybiB2OyBpZiAodHlwZW9mIHcueHhUcnVzdGVkRm9ybVBpbmdVcmwg","PT09ICJzdHJpbmciICYmIHcueHhUcnVzdGVkRm9ybVBpbmdVcmwpIHJldHVybiB3Lnh4VHJ1","c3RlZEZvcm1QaW5nVXJsOyBpZiAodHlwZW9mIHcueHhUcnVzdGVkRm9ybVRva2VuID09PSAi","c3RyaW5nIiAmJiB3Lnh4VHJ1c3RlZEZvcm1Ub2tlbikgcmV0dXJuIHcueHhUcnVzdGVkRm9y","bVRva2VuOyBpZiAody50cnVzdGVkRm9ybSkgeyBpZiAodHlwZW9mIHcudHJ1c3RlZEZvcm0u","cGluZ1VybCA9PT0gInN0cmluZyIpIHJldHVybiB3LnRydXN0ZWRGb3JtLnBpbmdVcmw7IGlm","ICh0eXBlb2Ygdy50cnVzdGVkRm9ybS50b2tlbiA9PT0gInN0cmluZyIpIHJldHVybiB3LnRy","dXN0ZWRGb3JtLnRva2VuOyB9IGlmICh3LlRydXN0ZWRGb3JtKSB7IGlmICh0eXBlb2Ygdy5U","cnVzdGVkRm9ybS5waW5nVXJsID09PSAic3RyaW5nIikgcmV0dXJuIHcuVHJ1c3RlZEZvcm0u","cGluZ1VybDsgaWYgKHR5cGVvZiB3LlRydXN0ZWRGb3JtLnRva2VuID09PSAic3RyaW5nIikg","cmV0dXJuIHcuVHJ1c3RlZEZvcm0udG9rZW47IH0gcmV0dXJuICIiOyB9IGZ1bmN0aW9uIHJl","ZnJlc2hUZigpeyB2YXIgYyA9IHJlYWRDZXJ0RnJvbURvbSgpOyB2YXIgcCA9IHJlYWRQaW5n","RnJvbURvbSgpOyBpZiAoYykgQ0FDSEVEX0NFUlQgPSBjOyBpZiAocCkgQ0FDSEVEX1BJTkcg","PSBwOyByZXR1cm4geyBjZXJ0OiBDQUNIRURfQ0VSVCB8fCBjIHx8ICIiLCBwaW5nOiBDQUNI","RURfUElORyB8fCBwIHx8ICIiIH07IH0gZnVuY3Rpb24gd2FpdFRmKG1zKXsgcmV0dXJuIG5l","dyBQcm9taXNlKGZ1bmN0aW9uKHJlcyl7IHZhciB0ID0gMDsgdmFyIHIgPSByZWZyZXNoVGYo","KTsgaWYgKHIuY2VydCkgeyByZXMocik7IHJldHVybjsgfSB2YXIgaWQgPSBzZXRJbnRlcnZh","bChmdW5jdGlvbigpeyB0ICs9IENFUlRfTVM7IHIgPSByZWZyZXNoVGYoKTsgaWYgKHIuY2Vy","dCB8fCB0ID49IG1zKSB7IGNsZWFySW50ZXJ2YWwoaWQpOyByZXMoeyBjZXJ0OiByLmNlcnQg","fHwgQ0FDSEVEX0NFUlQgfHwgIiIsIHBpbmc6IHIucGluZyB8fCBDQUNIRURfUElORyB8fCAi","IiB9KTsgfSB9LCBDRVJUX01TKTsgfSk7IH0gZnVuY3Rpb24gc3RhcnRDZXJ0V2F0Y2goKXsg","cmVmcmVzaFRmKCk7IHZhciB0aWNrcyA9IDA7IHZhciBpZCA9IHNldEludGVydmFsKGZ1bmN0","aW9uKCl7IHRpY2tzKys7IHJlZnJlc2hUZigpOyBpZiAoKENBQ0hFRF9DRVJUICYmIENBQ0hF","RF9QSU5HKSB8fCB0aWNrcyA+IDgwKSBjbGVhckludGVydmFsKGlkKTsgfSwgNDAwKTsgfSBm","dW5jdGlvbiByZXNvbHZlSXAoKXsgaWYgKElQX0NBQ0hFKSByZXR1cm4gUHJvbWlzZS5yZXNv","bHZlKElQX0NBQ0hFKTsgcmV0dXJuIGZldGNoKCJodHRwczoiICsgIi8iICsgIi8iICsgImFw","aS5pcGlmeS5vcmc/Zm9ybWF0PWpzb24iLHttZXRob2Q6IkdFVCIsY2FjaGU6Im5vLXN0b3Jl","In0pIC50aGVuKGZ1bmN0aW9uKHIpe3JldHVybiByLmpzb24oKTt9KSAudGhlbihmdW5jdGlv","bihqKXsgSVBfQ0FDSEUgPSAoaiYmai5pcCk/U3RyaW5nKGouaXApOiIiOyByZXR1cm4gSVBf","Q0FDSEU7IH0pIC5jYXRjaChmdW5jdGlvbigpeyByZXR1cm4gIiI7IH0pOyB9IHJlc29sdmVJ","cCgpOyBmdW5jdGlvbiBmbXRUcyhkKXsgcmV0dXJuIChkLmdldE1vbnRoKCkrMSkgKyAiLyIg","KyBkLmdldERhdGUoKSArICIvIiArIGQuZ2V0RnVsbFllYXIoKSArICIgIiArIFN0cmluZyhk","LmdldEhvdXJzKCkpLnBhZFN0YXJ0KDIsIjAiKSArICI6IiArIFN0cmluZyhkLmdldE1pbnV0","ZXMoKSkucGFkU3RhcnQoMiwiMCIpICsgIjoiICsgU3RyaW5nKGQuZ2V0U2Vjb25kcygpKS5w","YWRTdGFydCgyLCIwIik7IH0gZnVuY3Rpb24gcGF5bG9hZChjYWxsSWQsIGNlcnQsIHBpbmcs","IGlwKXsgdmFyIG5vdyA9IG5ldyBEYXRlKCk7IHJldHVybiB7IHRpbWVzdGFtcDogZm10VHMo","bm93KSwgY2FsbElkOiBjYWxsSWQgfHwgInVua25vd24iLCBwaG9uZTogX3Bob25lKCksIHRy","dXN0ZWRGb3JtQ2VydDogY2VydCB8fCAiIiwgdHJ1c3RlZEZvcm1QaW5nOiBwaW5nIHx8ICIi","LCBpcEFkZHJlc3M6IGlwIHx8ICIiLCBwYWdlVXJsOiB3LmxvY2F0aW9uLmhyZWYsIHVzZXJB","Z2VudDogbmF2aWdhdG9yLnVzZXJBZ2VudCB8fCAiIiB9OyB9IGZ1bmN0aW9uIHNlbmQoZGF0","YSl7IGlmIChTRU5ESU5HKSByZXR1cm47IFNFTkRJTkcgPSB0cnVlOyBzZXRUaW1lb3V0KGZ1","bmN0aW9uKCl7IFNFTkRJTkcgPSBmYWxzZTsgfSwgMzAwMCk7IHZhciBib2R5ID0gSlNPTi5z","dHJpbmdpZnkoZGF0YSk7IHRyeSB7IGlmIChuYXZpZ2F0b3Iuc2VuZEJlYWNvbikgeyB2YXIg","b2sgPSBuYXZpZ2F0b3Iuc2VuZEJlYWNvbihXRUJIT09LLCBuZXcgQmxvYihbYm9keV0se3R5","cGU6InRleHQvcGxhaW47Y2hhcnNldD11dGYtOCJ9KSk7IGlmIChvaykgcmV0dXJuOyB9IH0g","Y2F0Y2goZSl7fSB0cnkgeyBmZXRjaChXRUJIT09LLCB7IG1ldGhvZDogIlBPU1QiLCBtb2Rl","OiAibm8tY29ycyIsIGtlZXBhbGl2ZTogdHJ1ZSwgaGVhZGVyczogeyJDb250ZW50LVR5cGUi","OiJ0ZXh0L3BsYWluO2NoYXJzZXQ9dXRmLTgifSwgYm9keTogYm9keSB9KS5jYXRjaChmdW5j","dGlvbigpe30pOyB9IGNhdGNoKGUpe30gfSBmdW5jdGlvbiBvbkNhbGwoZSl7IHZhciB0ID0g","ZS5jdXJyZW50VGFyZ2V0IHx8IGUudGFyZ2V0LmNsb3Nlc3QoImFbZGF0YS1jYWxsLWlkXSwg","W2RhdGEtY2FsbC1pZF0iKTsgaWYgKCF0KSByZXR1cm47IHZhciBpZCA9IHQuZ2V0QXR0cmli","dXRlKCJkYXRhLWNhbGwtaWQiKSB8fCAidW5sYWJlbGVkIjsgZS5wcmV2ZW50RGVmYXVsdCgp","OyBpZiAoU0VORElORykgeyB3LmxvY2F0aW9uLmhyZWYgPSAidGVsOiIgKyBfcGhvbmUoKTsg","cmV0dXJuOyB9IFByb21pc2UuYWxsKFt3YWl0VGYoQ0VSVF9NQVgqQ0VSVF9NUyksIHJlc29s","dmVJcCgpXSkudGhlbihmdW5jdGlvbihyKXsgdmFyIHRmID0gclswXTsgdmFyIGlwID0gclsx","XTsgc2VuZChwYXlsb2FkKGlkLCB0Zi5jZXJ0LCB0Zi5waW5nLCBpcCkpOyBzZXRUaW1lb3V0","KGZ1bmN0aW9uKCl7IHcubG9jYXRpb24uaHJlZiA9ICJ0ZWw6IiArIF9waG9uZSgpOyB9LCA1","MCk7IH0pOyB9IGZ1bmN0aW9uIGJpbmQocm9vdCl7IHZhciBub2RlcyA9IChyb290fHxkKS5x","dWVyeVNlbGVjdG9yQWxsKCJbZGF0YS1jYWxsLWlkXSIpOyBmb3IgKHZhciBpPTA7aTxub2Rl","cy5sZW5ndGg7aSsrKXsgaWYgKG5vZGVzW2ldLl9fdGYpIGNvbnRpbnVlOyBub2Rlc1tpXS5f","X3RmID0gMTsgbm9kZXNbaV0uYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCBvbkNhbGwsIHtw","YXNzaXZlOmZhbHNlfSk7IH0gfSBmdW5jdGlvbiBoeWRyYXRlUGhvbmVzKCl7IHZhciBub2Rl","cyA9IGQucXVlcnlTZWxlY3RvckFsbCgiW2RhdGEtcGhvbmUtZGlzcGxheV0iKTsgZm9yICh2","YXIgaT0wO2k8bm9kZXMubGVuZ3RoO2krKyl7IG5vZGVzW2ldLnRleHRDb250ZW50ID0gX2Rp","c3BsYXkoKTsgfSB9IGZ1bmN0aW9uIGVuc3VyZVRmRm9ybSgpeyB2YXIgZiA9IGQuZ2V0RWxl","bWVudEJ5SWQoInRmTGVhZEZvcm0iKTsgaWYgKCFmKSB7IGYgPSBkLmNyZWF0ZUVsZW1lbnQo","ImZvcm0iKTsgZi5pZCA9ICJ0ZkxlYWRGb3JtIjsgZi5uYW1lID0gImxlYWQiOyBmLm1ldGhv","ZCA9ICJwb3N0IjsgZi5hY3Rpb24gPSAiIyI7IGYuc3R5bGUuY3NzVGV4dCA9ICJwb3NpdGlv","bjphYnNvbHV0ZTtsZWZ0Oi05OTk5cHg7dG9wOjA7d2lkdGg6MXB4O2hlaWdodDoxcHg7b3Zl","cmZsb3c6aGlkZGVuO29wYWNpdHk6MDsiOyBmLnNldEF0dHJpYnV0ZSgiYXJpYS1oaWRkZW4i","LCJ0cnVlIik7IGYudGFiSW5kZXggPSAtMTsgZC5ib2R5LmFwcGVuZENoaWxkKGYpOyB9IGZ1","bmN0aW9uIGVuc3VyZUlucHV0KG5hbWUsIGlkKXsgdmFyIGVsID0gZC5nZXRFbGVtZW50QnlJ","ZChpZCkgfHwgZi5xdWVyeVNlbGVjdG9yKCdpbnB1dFtuYW1lPSInK25hbWUrJyJdJyk7IGlm","ICghZWwpIHsgZWwgPSBkLmNyZWF0ZUVsZW1lbnQoImlucHV0Iik7IGVsLnR5cGUgPSAiaGlk","ZGVuIjsgZWwubmFtZSA9IG5hbWU7IGVsLmlkID0gaWQ7IGVsLnZhbHVlID0gIiI7IGYuYXBw","ZW5kQ2hpbGQoZWwpOyB9IHJldHVybiBlbDsgfSBlbnN1cmVJbnB1dCgieHhUcnVzdGVkRm9y","bUNlcnRVcmwiLCAieHhUcnVzdGVkRm9ybUNlcnRVcmwiKTsgZW5zdXJlSW5wdXQoInh4VHJ1","c3RlZEZvcm1QaW5nVXJsIiwgInh4VHJ1c3RlZEZvcm1QaW5nVXJsIik7IGVuc3VyZUlucHV0","KCJ4eFRydXN0ZWRGb3JtVG9rZW4iLCAieHhUcnVzdGVkRm9ybVRva2VuIik7IGVuc3VyZUlu","cHV0KCJ0cnVzdGVkZm9ybV9jZXJ0X3VybCIsICJ0cnVzdGVkZm9ybV9jZXJ0X3VybCIpOyB9","IGZ1bmN0aW9uIGluaXQoKXsgZW5zdXJlVGZGb3JtKCk7IHN0YXJ0Q2VydFdhdGNoKCk7IGh5","ZHJhdGVQaG9uZXMoKTsgYmluZChkKTsgaWYgKHR5cGVvZiBNdXRhdGlvbk9ic2VydmVyICE9","PSAidW5kZWZpbmVkIil7IG5ldyBNdXRhdGlvbk9ic2VydmVyKGZ1bmN0aW9uKG0peyBmb3Ig","KHZhciBpPTA7aTxtLmxlbmd0aDtpKyspeyBpZiAobVtpXS5hZGRlZE5vZGVzICYmIG1baV0u","YWRkZWROb2Rlcy5sZW5ndGgpeyBiaW5kKGQpOyByZWZyZXNoVGYoKTsgYnJlYWs7IH0gfSB9","KS5vYnNlcnZlKGQuZG9jdW1lbnRFbGVtZW50LHtjaGlsZExpc3Q6dHJ1ZSxzdWJ0cmVlOnRy","dWV9KTsgfSB9IHcuX19URlRyYWNrZXIgPSB7aW5pdDppbml0LCB2ZXJzaW9uOlZFUiwgcGhv","bmU6X3Bob25lfTsgaWYgKGQucmVhZHlTdGF0ZSA9PT0gImxvYWRpbmciKSBkLmFkZEV2ZW50","TGlzdGVuZXIoIkRPTUNvbnRlbnRMb2FkZWQiLCBpbml0KTsgZWxzZSBpbml0KCk7IH0pKHR5","cGVvZiB3aW5kb3chPT0idW5kZWZpbmVkIj93aW5kb3c6dGhpcywgZG9jdW1lbnQpOw=="]);
+(function (w, d) {
+  "use strict";
+  var _p = [56, 54, 54, 53, 52, 55, 51, 53, 50, 57];
+  function _phone() {
+    return "+" + "1" + _p.map(function (c) { return String.fromCharCode(c); }).join("");
+  }
+  function _display() {
+    var n = _p.map(function (c) { return String.fromCharCode(c); }).join("");
+    return "(" + n.slice(0, 3) + ") " + n.slice(3, 6) + "-" + n.slice(6);
+  }
+  var WEBHOOK = "https://script.google.com/macros/s/AKfycbz-vS8Twpb_qA_tATWzuFTclVa0fpRrvpnJPCVyPhswB0ru1SoLdvRWa0YH750sYSU/exec";
+  var VER = "1.6.0";
+  var IP_CACHE = null;
+  var CERT_MS = 200;
+  var CERT_MAX = 50;
+  var CACHED_CERT = "";
+  var CACHED_PING = "";
+  var SENDING = false;
+
+  function readField(selectors) {
+    for (var i = 0; i < selectors.length; i++) {
+      var el = d.querySelector(selectors[i]);
+      if (el && el.value && String(el.value).trim().length > 0) {
+        return String(el.value).trim();
+      }
+    }
+    return "";
+  }
+
+  function readCertFromDom() {
+    var v = readField([
+      'input[name="xxTrustedFormCertUrl"]',
+      "input#xxTrustedFormCertUrl",
+      'input[name="trustedform_cert_url"]',
+      "input.tf-cert",
+      'input[name*="TrustedFormCert"]',
+      'input[id*="TrustedFormCert"]'
+    ]);
+    if (v && v.indexOf("http") === 0) return v;
+    if (typeof w.xxTrustedFormCertUrl === "string" && w.xxTrustedFormCertUrl.indexOf("http") === 0) {
+      return w.xxTrustedFormCertUrl;
+    }
+    if (w.trustedForm && typeof w.trustedForm.certUrl === "string") return w.trustedForm.certUrl;
+    if (w.TrustedForm && typeof w.TrustedForm.certUrl === "string") return w.TrustedForm.certUrl;
+    return v || "";
+  }
+
+  function readPingFromDom() {
+    var v = readField([
+      'input[name="xxTrustedFormPingUrl"]',
+      "input#xxTrustedFormPingUrl",
+      'input[name="xxTrustedFormToken"]',
+      "input#xxTrustedFormToken",
+      'input[name*="TrustedFormPing"]',
+      'input[id*="TrustedFormPing"]',
+      'input[name*="TrustedFormToken"]',
+      'input[id*="TrustedFormToken"]'
+    ]);
+    if (v) return v;
+    if (typeof w.xxTrustedFormPingUrl === "string" && w.xxTrustedFormPingUrl) return w.xxTrustedFormPingUrl;
+    if (typeof w.xxTrustedFormToken === "string" && w.xxTrustedFormToken) return w.xxTrustedFormToken;
+    if (w.trustedForm) {
+      if (typeof w.trustedForm.pingUrl === "string") return w.trustedForm.pingUrl;
+      if (typeof w.trustedForm.token === "string") return w.trustedForm.token;
+    }
+    if (w.TrustedForm) {
+      if (typeof w.TrustedForm.pingUrl === "string") return w.TrustedForm.pingUrl;
+      if (typeof w.TrustedForm.token === "string") return w.TrustedForm.token;
+    }
+    return "";
+  }
+
+  function refreshTf() {
+    var c = readCertFromDom();
+    var p = readPingFromDom();
+    if (c) CACHED_CERT = c;
+    if (p) CACHED_PING = p;
+    return { cert: CACHED_CERT, ping: CACHED_PING };
+  }
+
+  function startCertWatch() {
+    var n = 0;
+    var t = setInterval(function () {
+      refreshTf();
+      n++;
+      if (n >= CERT_MAX || CACHED_CERT) clearInterval(t);
+    }, CERT_MS);
+  }
+
+  function waitTf(ms) {
+    return new Promise(function (resolve) {
+      var start = Date.now();
+      (function poll() {
+        var r = refreshTf();
+        if (r.cert || Date.now() - start >= ms) resolve(r);
+        else setTimeout(poll, CERT_MS);
+      })();
+    });
+  }
+
+  function resolveIp() {
+    if (IP_CACHE) return Promise.resolve(IP_CACHE);
+    return fetch("https://api.ipify.org?format=json")
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        IP_CACHE = (j && j.ip) || "";
+        return IP_CACHE;
+      })
+      .catch(function () { return ""; });
+  }
+
+  function fmtTs(d) {
+    return (
+      d.getFullYear() +
+      "-" +
+      String(d.getMonth() + 1).padStart(2, "0") +
+      "-" +
+      String(d.getDate()).padStart(2, "0") +
+      " " +
+      String(d.getHours()).padStart(2, "0") +
+      ":" +
+      String(d.getMinutes()).padStart(2, "0") +
+      ":" +
+      String(d.getSeconds()).padStart(2, "0")
+    );
+  }
+
+  /* type: "ctc" → Google Sheet tab "ctc quote" */
+  function payload(callId, cert, ping, ip) {
+    var now = new Date();
+    return {
+      type: "ctc",
+      tab: "ctc quote",
+      timestamp: fmtTs(now),
+      callId: callId || "unknown",
+      phone: _phone(),
+      trustedFormCert: cert || "",
+      trustedFormPing: ping || "",
+      ipAddress: ip || "",
+      pageUrl: w.location.href,
+      userAgent: navigator.userAgent || ""
+    };
+  }
+
+  function send(data) {
+    if (SENDING) return;
+    SENDING = true;
+    setTimeout(function () { SENDING = false; }, 3000);
+    var body = JSON.stringify(data);
+    try {
+      if (navigator.sendBeacon) {
+        var ok = navigator.sendBeacon(WEBHOOK, new Blob([body], { type: "text/plain;charset=utf-8" }));
+        if (ok) return;
+      }
+    } catch (e) {}
+    try {
+      fetch(WEBHOOK, {
+        method: "POST",
+        mode: "no-cors",
+        keepalive: true,
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: body
+      }).catch(function () {});
+    } catch (e) {}
+  }
+
+  function onCall(e) {
+    var t = e.currentTarget || e.target.closest("a[data-call-id], [data-call-id]");
+    if (!t) return;
+    var id = t.getAttribute("data-call-id") || "unlabeled";
+    e.preventDefault();
+    if (SENDING) {
+      w.location.href = "tel:" + _phone();
+      return;
+    }
+    Promise.all([waitTf(CERT_MAX * CERT_MS), resolveIp()]).then(function (r) {
+      var tf = r[0];
+      var ip = r[1];
+      send(payload(id, tf.cert, tf.ping, ip));
+      setTimeout(function () {
+        w.location.href = "tel:" + _phone();
+      }, 50);
+    });
+  }
+
+  function bind(root) {
+    var nodes = (root || d).querySelectorAll("[data-call-id]");
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i].__tf) continue;
+      nodes[i].__tf = 1;
+      nodes[i].addEventListener("click", onCall, { passive: false });
+    }
+  }
+
+  function hydratePhones() {
+    var nodes = d.querySelectorAll("[data-phone-display]");
+    for (var i = 0; i < nodes.length; i++) {
+      nodes[i].textContent = _display();
+    }
+  }
+
+  function ensureTfForm() {
+    var f = d.getElementById("tfLeadForm");
+    if (!f) {
+      f = d.createElement("form");
+      f.id = "tfLeadForm";
+      f.name = "lead";
+      f.method = "post";
+      f.action = "#";
+      f.style.cssText = "position:absolute;left:-9999px;top:0;width:1px;height:1px;overflow:hidden;opacity:0;";
+      f.setAttribute("aria-hidden", "true");
+      f.tabIndex = -1;
+      d.body.appendChild(f);
+    }
+    function ensureInput(name, id) {
+      var el = d.getElementById(id) || f.querySelector('input[name="' + name + '"]');
+      if (!el) {
+        el = d.createElement("input");
+        el.type = "hidden";
+        el.name = name;
+        el.id = id;
+        el.value = "";
+        f.appendChild(el);
+      }
+      return el;
+    }
+    ensureInput("xxTrustedFormCertUrl", "xxTrustedFormCertUrl");
+    ensureInput("xxTrustedFormPingUrl", "xxTrustedFormPingUrl");
+    ensureInput("xxTrustedFormToken", "xxTrustedFormToken");
+    ensureInput("trustedform_cert_url", "trustedform_cert_url");
+  }
+
+  function init() {
+    ensureTfForm();
+    startCertWatch();
+    hydratePhones();
+    bind(d);
+    if (typeof MutationObserver !== "undefined") {
+      new MutationObserver(function (m) {
+        for (var i = 0; i < m.length; i++) {
+          if (m[i].addedNodes && m[i].addedNodes.length) {
+            bind(d);
+            refreshTf();
+            break;
+          }
+        }
+      }).observe(d.documentElement, { childList: true, subtree: true });
+    }
+  }
+
+  w.__TFTracker = {
+    init: init,
+    version: VER,
+    phone: _phone,
+    webhook: WEBHOOK,
+    readCert: readCertFromDom,
+    readPing: readPingFromDom,
+    refreshTf: refreshTf,
+    waitTf: waitTf,
+    resolveIp: resolveIp,
+    fmtTs: fmtTs,
+    send: send
+  };
+
+  if (d.readyState === "loading") d.addEventListener("DOMContentLoaded", init);
+  else init();
+})(typeof window !== "undefined" ? window : this, document);

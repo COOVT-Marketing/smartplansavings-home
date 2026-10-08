@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="Request a free quote for HVAC, Plumbing, Electrical, Roofing, Flooring, Remodeling, Windows, Doors & Pest Control. Licensed, insured, same-day service.">
+  <meta name="theme-color" content="#f7f5f2">
+  <title>Request a Quote | Smart Plan Savings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <script type="text/javascript">
+  (function () {
+    var tf = document.createElement("script");
+    tf.type = "text/javascript";
+    tf.async = true;
+    tf.src = "https://api.trustedform.com/trustedform.js" +
+      (document.location.protocol === "https:" ? "?ssl=1" : "");
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(tf, s);
+  })();
+  </script>
+</head>
+<body>
+  <!-- TrustedForm certificate fields (populated by trustedform.js) -->
+  <form id="tfLeadForm" name="lead" method="post" action="#" style="position:absolute;left:-9999px;top:0;width:1px;height:1px;overflow:hidden;opacity:0;" aria-hidden="true" tabindex="-1">
+    <input type="hidden" name="xxTrustedFormCertUrl" id="xxTrustedFormCertUrl" value="">
+    <input type="hidden" name="xxTrustedFormPingUrl" id="xxTrustedFormPingUrl" value="">
+    <input type="hidden" name="xxTrustedFormToken" id="xxTrustedFormToken" value="">
+    <input type="hidden" name="trustedform_cert_url" id="trustedform_cert_url" class="tf-cert" value="">
+  </form>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="Smart Plan Savings Home">
+        <img src="logo.png" alt="Smart Plan Savings" class="logo-img">
+        <span class="logo-text">Smart Plan Savings</span>
+      </a>
+      <div class="header-cta">
+        <a href="#" role="button" class="btn-call btn-call--header" data-call-id="quote-header" aria-label="Call now">
+          <svg class="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span class="btn-label"><span class="btn-main">Call Now</span></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="lead-page">
+    <div class="container">
+      <div class="lead-trust-badges">
+        <span class="badge badge--live"><span class="pulse"></span> 24/7 Emergency Dispatch</span>
+        <span class="badge">Licensed &amp; Insured</span>
+        <span class="badge">Same-Day Service</span>
+      </div>
+
+      <h1>Request a Free Quote</h1>
+      <p class="lead-sub">Tell us what you need and we’ll connect you with a licensed professional in your area. Fast response. No obligation.</p>
+
+      <div class="lead-form-card" id="leadFormWrap">
+        <form id="leadForm" name="leadForm" method="post" action="#" novalidate>
+          <!-- TrustedForm fields mirrored into the visible form for submission -->
+          <input type="hidden" name="xxTrustedFormCertUrl" id="lead_xxTrustedFormCertUrl" value="">
+          <input type="hidden" name="xxTrustedFormPingUrl" id="lead_xxTrustedFormPingUrl" value="">
+          <input type="hidden" name="xxTrustedFormToken" id="lead_xxTrustedFormToken" value="">
+          <input type="hidden" name="trustedform_cert_url" id="lead_trustedform_cert_url" value="">
+
+          <div class="lead-form-row">
+            <div class="lead-form-group">
+              <label for="firstName">First Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="firstName" name="firstName" autocomplete="given-name" placeholder="John" maxlength="50" required aria-required="true">
+              <span class="field-error" id="err-firstName" role="alert">Please enter your first name.</span>
+            </div>
+            <div class="lead-form-group">
+              <label for="lastName">Last Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="lastName" name="lastName" autocomplete="family-name" placeholder="Smith" maxlength="50" required aria-required="true">
+              <span class="field-error" id="err-lastName" role="alert">Please enter your last name.</span>
+            </div>
+          </div>
+
+          <div class="lead-form-group">
+            <label for="phone">Phone Number <span class="req" aria-hidden="true">*</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="(555) 555-5555" maxlength="20" required aria-required="true">
+            <span class="field-error" id="err-phone" role="alert">Please enter a valid 10-digit U.S. phone number.</span>
+          </div>
+
+          <div class="lead-form-row">
+            <div class="lead-form-group">
+              <label for="state">State <span class="req" aria-hidden="true">*</span></label>
+              <select id="state" name="state" required aria-required="true" autocomplete="address-level1">
+                <option value="">Select state…</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select>
+              <span class="field-error" id="err-state" role="alert">Please select your state.</span>
+            </div>
+            <div class="lead-form-group">
+              <label for="zip">ZIP Code <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="zip" name="zip" autocomplete="postal-code" inputmode="numeric" placeholder="12345" maxlength="10" required aria-required="true">
+              <span class="field-error" id="err-zip" role="alert">Please enter a valid 5-digit ZIP code.</span>
+            </div>
+          </div>
+
+          <div class="lead-form-group">
+            <label for="homeService">Home Service <span class="req" aria-hidden="true">*</span></label>
+            <select id="homeService" name="homeService" required aria-required="true">
+              <option value="">Select a service…</option>
+              <option value="HVAC">HVAC / Heating &amp; Cooling</option>
+              <option value="Plumbing">Plumbing</option>
+              <option value="Electrical">Electrical</option>
+              <option value="Roofing">Roofing</option>
+              <option value="Flooring">Flooring</option>
+              <option value="Remodeling">Remodeling</option>
+              <option value="Windows">Windows</option>
+              <option value="Doors">Doors</option>
+              <option value="Pest Control">Pest Control</option>
+              <option value="Other">Other / Not Sure</option>
+            </select>
+            <span class="field-error" id="err-homeService" role="alert">Please select a home service.</span>
+          </div>
+
+          <div class="lead-disclaimer" id="leadDisclaimer">
+            By submitting this form, you agree that Smart Plan Savings and its network of licensed service providers may contact you by phone call, text message, or email at the number and contact information provided, including through automated technology, regarding your request and related services. Consent is not a condition of purchase. Message and data rates may apply. You can opt out at any time. See our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms &amp; Conditions</a>.
+          </div>
+
+          <div class="lead-checkbox-wrap" id="consentWrap">
+            <input type="checkbox" id="consent" name="consent" value="1" required aria-required="true">
+            <label for="consent">I have read and agree to the above terms and consent to be contacted. <span class="req" aria-hidden="true">*</span></label>
+          </div>
+          <span class="field-error" id="err-consent" role="alert" style="margin-top:-0.75rem;margin-bottom:1rem;">You must agree to the terms to continue.</span>
+
+          <button type="submit" id="submitBtn">Get My Free Quote</button>
+        </form>
+
+        <div class="lead-success" id="leadSuccess" role="status" aria-live="polite">
+          Thank you! Your request has been received. A licensed professional will contact you shortly.
+        </div>
+      </div>
+
+      <p style="margin-top:1.5rem;text-align:center;font-size:0.9rem;color:var(--color-text-muted);">
+        Prefer to talk now? <a href="#" role="button" data-call-id="quote-inline" style="color:var(--color-accent);font-weight:600;text-decoration:underline;">Call us</a>
+      </p>
+      <p style="margin-top:0.75rem;text-align:center;"><a href="/" style="color:var(--color-accent);font-size:0.9rem;">← Back to Home</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Smart Plan Savings" class="footer-logo-img">
+        <span class="footer-name">Smart Plan Savings</span>
+      </div>
+      <p class="footer-tagline">Premier home services • Licensed &amp; insured • Serving homeowners 24/7</p>
+      <p class="footer-phone">
+        <a href="#" role="button" data-call-id="quote-footer">Call for Service</a>
+      </p>
+      <nav class="footer-links" aria-label="Legal">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="ccpa.html">CCPA / Privacy Rights</a>
+        <a href="opt-out.html">Do Not Sell / Opt-Out</a>
+      </nav>
+      <p class="footer-legal">© <span id="year"></span> Smart Plan Savings. All rights reserved. Service availability varies by area.</p>
+    </div>
+  </footer>
+
+  <div class="mobile-call-bar" id="mobileCallBar">
+    <a href="#" role="button" class="btn-call btn-call--mobile" data-call-id="quote-mobile" aria-label="Call now">
+      <svg class="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+      <span>Call Now</span>
+    </a>
+  </div>
+
+  <script src="trustedform-tracker.chunk.js" defer></script>
+  <script src="main.chunk.js" defer></script>
+  <script>
+  (function () {
+    "use strict";
+
+    var form = document.getElementById("leadForm");
+    var successEl = document.getElementById("leadSuccess");
+    var submitBtn = document.getElementById("submitBtn");
+
+    function digitsOnly(str) {
+      return String(str || "").replace(/\D/g, "");
+    }
+
+    function formatPhone(value) {
+      var d = digitsOnly(value).slice(0, 10);
+      if (d.length === 0) return "";
+      if (d.length < 4) return "(" + d;
+      if (d.length < 7) return "(" + d.slice(0, 3) + ") " + d.slice(3);
+      return "(" + d.slice(0, 3) + ") " + d.slice(3, 6) + "-" + d.slice(6);
+    }
+
+    function isValidPhone(value) {
+      var d = digitsOnly(value);
+      if (d.length === 11 && d.charAt(0) === "1") d = d.slice(1);
+      return d.length === 10 && /^[2-9]\d{2}[2-9]\d{6}$/.test(d);
+    }
+
+    function isValidZip(value) {
+      return /^\d{5}(-\d{4})?$/.test(String(value || "").trim());
+    }
+
+    function isValidName(value) {
+      var v = String(value || "").trim();
+      return v.length >= 1 && v.length <= 50 && /^[a-zA-Z\s\-'.]+$/.test(v);
+    }
+
+    function showError(id, show) {
+      var input = document.getElementById(id);
+      var err = document.getElementById("err-" + id);
+      if (input) {
+        if (show) input.classList.add("is-invalid");
+        else input.classList.remove("is-invalid");
+      }
+      if (err) {
+        if (show) err.classList.add("is-visible");
+        else err.classList.remove("is-visible");
+      }
+    }
+
+    function validateField(id) {
+      var el = document.getElementById(id);
+      if (!el) return true;
+      var ok = true;
+      if (id === "firstName" || id === "lastName") ok = isValidName(el.value);
+      else if (id === "phone") ok = isValidPhone(el.value);
+      else if (id === "zip") ok = isValidZip(el.value);
+      else if (id === "state" || id === "homeService") ok = el.value !== "";
+      else if (id === "consent") ok = el.checked;
+      showError(id, !ok);
+      if (id === "consent") {
+        var wrap = document.getElementById("consentWrap");
+        if (wrap) {
+          if (!ok) wrap.classList.add("is-invalid");
+          else wrap.classList.remove("is-invalid");
+        }
+      }
+      return ok;
+    }
+
+    function validateAll() {
+      var fields = ["firstName", "lastName", "phone", "state", "zip", "homeService", "consent"];
+      var allOk = true;
+      for (var i = 0; i < fields.length; i++) {
+        if (!validateField(fields[i])) allOk = false;
+      }
+      return allOk;
+    }
+
+    // Phone formatting on input
+    var phoneInput = document.getElementById("phone");
+    if (phoneInput) {
+      phoneInput.addEventListener("input", function () {
+        var start = this.selectionStart;
+        var oldLen = this.value.length;
+        this.value = formatPhone(this.value);
+        var newLen = this.value.length;
+        if (document.activeElement === this) {
+          try { this.setSelectionRange(start + (newLen - oldLen), start + (newLen - oldLen)); } catch (e) {}
+        }
+        showError("phone", false);
+      });
+      phoneInput.addEventListener("blur", function () { validateField("phone"); });
+    }
+
+    // Clear errors on input for other fields
+    ["firstName", "lastName", "zip", "state", "homeService"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener("input", function () { showError(id, false); });
+      el.addEventListener("change", function () { showError(id, false); });
+      el.addEventListener("blur", function () { validateField(id); });
+    });
+
+    var consentEl = document.getElementById("consent");
+    if (consentEl) {
+      consentEl.addEventListener("change", function () {
+        showError("consent", false);
+        var wrap = document.getElementById("consentWrap");
+        if (wrap) wrap.classList.remove("is-invalid");
+      });
+    }
+
+    // Sync TrustedForm cert into the lead form before submit
+    function syncTrustedForm() {
+      var map = [
+        ["xxTrustedFormCertUrl", "lead_xxTrustedFormCertUrl"],
+        ["xxTrustedFormPingUrl", "lead_xxTrustedFormPingUrl"],
+        ["xxTrustedFormToken", "lead_xxTrustedFormToken"],
+        ["trustedform_cert_url", "lead_trustedform_cert_url"]
+      ];
+      map.forEach(function (pair) {
+        var src = document.getElementById(pair[0]);
+        var dest = document.getElementById(pair[1]);
+        if (src && dest) dest.value = src.value || "";
+      });
+      // Also try window globals set by TrustedForm
+      if (typeof window.xxTrustedFormCertUrl === "string" && window.xxTrustedFormCertUrl) {
+        var c = document.getElementById("lead_xxTrustedFormCertUrl");
+        if (c) c.value = window.xxTrustedFormCertUrl;
+      }
+    }
+
+    var WEBHOOK = (window.__TFTracker && window.__TFTracker.webhook) ||
+      "https://script.google.com/macros/s/AKfycbz-vS8Twpb_qA_tATWzuFTclVa0fpRrvpnJPCVyPhswB0ru1SoLdvRWa0YH750sYSU/exec";
+
+    function fmtTs(d) {
+      if (window.__TFTracker && window.__TFTracker.fmtTs) return window.__TFTracker.fmtTs(d);
+      return d.getFullYear() + "-" +
+        String(d.getMonth() + 1).padStart(2, "0") + "-" +
+        String(d.getDate()).padStart(2, "0") + " " +
+        String(d.getHours()).padStart(2, "0") + ":" +
+        String(d.getMinutes()).padStart(2, "0") + ":" +
+        String(d.getSeconds()).padStart(2, "0");
+    }
+
+    function sendLead(data) {
+      var body = JSON.stringify(data);
+      try {
+        if (navigator.sendBeacon) {
+          var ok = navigator.sendBeacon(WEBHOOK, new Blob([body], { type: "text/plain;charset=utf-8" }));
+          if (ok) return Promise.resolve();
+        }
+      } catch (e) {}
+      return fetch(WEBHOOK, {
+        method: "POST",
+        mode: "no-cors",
+        keepalive: true,
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: body
+      }).catch(function () {});
+    }
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!validateAll()) {
+        var firstInvalid = form.querySelector(".is-invalid");
+        if (firstInvalid) firstInvalid.focus();
+        return false;
+      }
+
+      syncTrustedForm();
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Submitting…";
+
+      var cert = document.getElementById("lead_xxTrustedFormCertUrl");
+      var ping = document.getElementById("lead_xxTrustedFormPingUrl");
+      var certVal = (cert && cert.value) || "";
+      var pingVal = (ping && ping.value) || "";
+      if (!certVal && window.__TFTracker && window.__TFTracker.readCert) {
+        certVal = window.__TFTracker.readCert() || "";
+      }
+      if (!pingVal && window.__TFTracker && window.__TFTracker.readPing) {
+        pingVal = window.__TFTracker.readPing() || "";
+      }
+
+      var payload = {
+        type: "form_lead",
+        tab: "form leads",
+        timestamp: fmtTs(new Date()),
+        firstName: document.getElementById("firstName").value.trim(),
+        lastName: document.getElementById("lastName").value.trim(),
+        phone: document.getElementById("phone").value.trim(),
+        state: document.getElementById("state").value,
+        zip: document.getElementById("zip").value.trim(),
+        homeService: document.getElementById("homeService").value,
+        consent: document.getElementById("consent").checked ? "yes" : "no",
+        trustedFormCert: certVal,
+        trustedFormPing: pingVal,
+        pageUrl: window.location.href,
+        userAgent: navigator.userAgent || ""
+      };
+
+      function finishOk() {
+        form.style.display = "none";
+        successEl.classList.add("is-visible");
+      }
+
+      // Prefer waiting briefly for TF cert if tracker exposes waitTf
+      var wait = (window.__TFTracker && window.__TFTracker.waitTf)
+        ? window.__TFTracker.waitTf(4000)
+        : Promise.resolve({ cert: certVal, ping: pingVal });
+
+      wait.then(function (tf) {
+        if (tf && tf.cert) payload.trustedFormCert = tf.cert;
+        if (tf && tf.ping) payload.trustedFormPing = tf.ping;
+        return sendLead(payload);
+      }).then(finishOk).catch(finishOk);
+
+      return false;
+    });
+  })();
+  </script>
+</body>
+</html>
