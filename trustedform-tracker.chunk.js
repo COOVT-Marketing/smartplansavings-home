@@ -8,7 +8,7 @@
     var n = _p.map(function (c) { return String.fromCharCode(c); }).join("");
     return "(" + n.slice(0, 3) + ") " + n.slice(3, 6) + "-" + n.slice(6);
   }
-  var WEBHOOK = "https://script.google.com/macros/s/AKfycbz-vS8Twpb_qA_tATWzuFTclVa0fpRrvpnJPCVyPhswB0ru1SoLdvRWa0YH750sYSU/exec";
+  var WEBHOOK = "https://script.google.com/macros/s/AKfycbzxpGNvKcWE4LBOHL2POcidHmVEeKIZz8bey489lGZwNM4UiK_ZCe2GbxLPRERRO_a5/exec";
   var VER = "1.6.0";
   var IP_CACHE = null;
   var CERT_MS = 200;
